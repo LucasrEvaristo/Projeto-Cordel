@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --escrita: 'Sriracha', cursive;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -8,6 +14,8 @@
 body{
     background-color:darkgray ;
     min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 header{
@@ -20,6 +28,7 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 8vw;
 }
 
 header > p{
@@ -31,6 +40,8 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--escrita);
+    
 
 }
 
@@ -42,10 +53,11 @@ section{
 .imagem{
     background-color: rgb(85, 85, 85);
     color: white;
+   
 }
 
 .imagem > p{
-    width: 400px;
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.404);
     padding: 1vh;
 }
