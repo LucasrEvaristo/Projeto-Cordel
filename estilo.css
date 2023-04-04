@@ -41,8 +41,13 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--escrita);
+    font-size: 3vw;
     
 
+}
+
+section > p{
+    padding-bottom: 1em;
 }
 
 .normal{
@@ -53,13 +58,25 @@ section{
 .imagem{
     background-color: rgb(85, 85, 85);
     color: white;
+    background-size: cover;
+    background-attachment: fixed;
    
 }
 
 .imagem > p{
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.404);
-    padding: 1vh;
+    padding: 5px;
+    text-shadow: 1px 1px;
+}
+
+#img1{
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+}
+
+#img2{
+    background-image: url('imagens/background002.jpg');
 }
 
 
